@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "joai-appointment": {
+      "url": "https://cortex.joai.ai/mcp/apps/appointment"
+    }
+  }
+}
