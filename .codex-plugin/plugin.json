@@ -1,0 +1,38 @@
+{
+  "name": "joai-appointment",
+  "version": "0.3.0",
+  "description": "Connect Appointment to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/appointment",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "appointment"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Appointment by JoAi",
+    "shortDescription": "Connect Appointment to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "Appointment booking and intake flows for service businesses.",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/appointment",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Appointment tools available in this app.",
+      "Explain what setup or authentication Appointment needs before I run an action.",
+      "Use Appointment to help me with the task I describe next."
+    ]
+  }
+}
